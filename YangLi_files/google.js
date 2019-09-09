@@ -1,8 +1,8 @@
 var _gaq = _gaq || [];
 var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
 _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-_gaq.push(['_setAccount', '']);
-_gaq.push(['_setDomainName', '.com']);
+_gaq.push(['_setAccount', 'UA-147439645-1']);
+_gaq.push(['_setDomainName', 'npuliyang.github.io']);
 _gaq.push(['_setAllowLinker', true]);
 _gaq.push(['_trackPageview']);
 

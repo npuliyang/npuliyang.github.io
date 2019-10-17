@@ -57,7 +57,7 @@ div.map{margin-left:auto;margin-right:auto;width:120px;height:auto;}
 div.copyright{color:#565656;font-family: Segoe;font-size:12px}
 @media only screen and (max-width: 599px) {
     div.ftsubheader{padding-left:10px;padding-right:10px}
-    div.heading div.img{padding-right:50px}
+    div.heading div.img{display:none} img{width:80px;text-align:center;} 
     div.publication div.img{display:none}
     div.publication div.text{text-align:left}
     div.content,div.publication{padding-top:0px;padding-bottom:10px}

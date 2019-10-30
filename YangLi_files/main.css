@@ -53,6 +53,7 @@ span.highlight a:link,
 span.highlight a:visited{color:#BB2222}
 span.fullvenue{padding-left:8px}
 div.anchor{border-top:50px solid transparent;margin-top:-50px}
+div.section{border-top:30px solid transparent;border-bottom:5px solid transparent;margin-top:-45px;line-height:1.2;}
 div.map{margin-left:auto;margin-right:auto;width:120px;height:auto;}
 div.copyright{color:#565656;font-family: Segoe;font-size:12px}
 @media only screen and (max-width: 599px) {

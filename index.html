@@ -54,7 +54,7 @@
           <p>
             <span><a href="https://scholar.google.com/citations?user=jtogpBkAAAAJ&hl=en" target="_blank">Google
                 Scholar</a></span> /
-            <span><a href="https://www.researchgate.net/profile/Yang_Li405" target="_blank">Research Gate</a></span> 
+            <span><a href="https://www.researchgate.net/profile/Yang_Li405" target="_blank">Research Gate</a></span>
             <!-- <span><a href="https://publons.com/researcher/2003808/yang-li" target="_blank">Publons</a></span> -->
             <!-- <span class="tag"><a href="https://orcid.org/0000-0001-5672-4110" target="_blank">OCRiD</a></span> -->
           </p>
@@ -65,10 +65,10 @@
           <p></p>
           <div class="title">Research Topics</div>
           <ul>
-            <li><a href="#sentic" onclick="showPubs(1)">Sentiment Analysis</a></li>
+            <li><a href="#sentic" onclick="showPubs(1)">Natural Language Processing</a></li>
             <li><a href="#recommendation" onclick="showPubs(1)">Recommender System</a></li>
-            <li><a href="#gen" onclick="showPubs(1)">Sentence Generation</a></li>
-            <li><a href="#microtext" onclick="showPubs(1)">Microtext Processing</a></li>
+            <!-- <li><a href="#gen" onclick="showPubs(1)">Sentence Generation</a></li>
+            <li><a href="#microtext" onclick="showPubs(1)">Microtext Processing</a></li> -->
           </ul>
           <p>
           </p>
@@ -355,7 +355,7 @@
         </script>
         <script id="pubs_by_topic" language="text">
 
-                <div class="text anchor" id="sentic"> <h4> Sentiment Analysis </h4> </div>
+                <div class="text anchor" id="sentic"> <h4> Natural Language Processing </h4> </div>
                 <div class="publication">
                   <div class="img"><img class="img_responsive" src="./YangLi_files/img_senticnet6.png" alt="normalization"></img></div>
                   <div class="text">
@@ -393,7 +393,21 @@
                   </div>
                 </div>
                 </div >
-               
+                <div class="publication">
+                  <div class="img"><img class="img_responsive" src="./YangLi_files/img_embeddingsurvey.png" alt="embeddingsurvey"></img></div>
+                  <div class="text">
+                    <div class="title"><a name="nscl_iclr" href="./Papers/EmbeddingSurvey.pdf">Word Embedding for Understanding Natural Language: A Survey</a></div>
+                    <div class="authors">
+                      <span class="author ly">Yang Li</span>,
+                      <span class="author">Tao Yang</span>
+                    </div>
+                    <div>
+                      <span class="venue"><a href="https://link.springer.com/chapter/10.1007/978-3-319-53817-4_4" target="_blank">Guide to Big Data Applications</a></span> /
+                      <span class="tag"><a href="./Papers/EmbeddingSurvey.pdf">Paper</a></span> /
+                      <span class="tag">2017.05</span>
+                    </div>
+                  </div>
+                </div> 
                 <div class="publication">
                   <div class="img"><img class="img_responsive" src="./YangLi_files/img_generative.png" alt="generative"></img></div>
                   <div class="text">
@@ -470,21 +484,27 @@
                   </div>
                 </div> 
 
-               <div class="publication">
-                  <div class="img"><img class="img_responsive" src="./YangLi_files/img_embeddingsurvey.png" alt="embeddingsurvey"></img></div>
+
+
+                <div class="publication">
+                  <div class="img"><img class="img_responsive" src="./YangLi_files/img_normalization.png" alt="normalization"></img></div>
                   <div class="text">
-                    <div class="title"><a name="nscl_iclr" href="./Papers/EmbeddingSurvey.pdf">Word Embedding for Understanding Natural Language: A Survey</a></div>
+                    <div class="title"><a name="nscl_iclr" href="./Papers/micro_text.pdf" target="_blank">Seq2Seq Deep Learning Models for Microtext Normalization</a></div>
                     <div class="authors">
+                      <span class="author"><a href="https://medium.com/@kumarsatpathy" target="_blank">Ranjan Satapathy</a></span>,
                       <span class="author ly">Yang Li</span>,
-                      <span class="author">Tao Yang</span>
+                      <span class="author">Sandro Cavallari</span>,
+                      <span class="author"><a href="https://sentic.net/erikcambria/" target="_blank">Erik Cambria</a></span>
                     </div>
                     <div>
-                      <span class="venue"><a href="https://link.springer.com/chapter/10.1007/978-3-319-53817-4_4" target="_blank">Guide to Big Data Applications</a></span> /
-                      <span class="tag"><a href="./Papers/EmbeddingSurvey.pdf">Paper</a></span> /
-                      <span class="tag">2017.05</span>
+                      <span class="venue"><a href="https://ieeexplore.ieee.org/document/8851895" target="_blank">IJCNN2019</a></span> /
+                      <span class="tag"><a href="./Papers/micro_text.pdf" target="_blank">Paper</a></span> /
+                      <span class="tag"><a href="https://github.com/npuliyang/Microtext_Normalization" target="_blank">Code</a></span> /
+                      <span class="tag">2019.06</span>
                     </div>
                   </div>
-                </div> 
+                </div>
+
 
                 <div class="text anchor" id="recommendation"><h4>Recommender Systems</h4></div>
               <div class="publication">
@@ -540,49 +560,7 @@
                       <span class="tag">2017.04</span>
                     </div>
                   </div>
-                </div>   
-                
-                <div class="text anchor" id="gen"><h4>Sentence Generation</h4></div>
-                 <div class="publication">
-                  <div class="img"><img class="img_responsive" src="./YangLi_files/img_generative.png" alt="generative"></img></div>
-                  <div class="text">
-                    <div class="title"><a name="nscl_iclr" href="https://sentic.net/category-sentence-generative-adversarial-network.pdf">A Generative Model for Category Text Generation</a></div>
-                    <div class="authors">
-                      <span class="author ly">Yang Li</span>,
-                      <span class="author">Quan Pan</span>,
-                      <span class="author"><a href="https://suhangwang.ist.psu.edu" target="_blank">Suhang Wang</a></span>,
-                      <span class="author">Tao Yang</span>,
-                      <span class="author"><a href="https://sentic.net/erikcambria/" target="_blank">Erik Cambria</a></span>
-                    </div>
-                    <div>
-                      <span class="venue"><a href="https://www.sciencedirect.com/science/article/pii/S0020025518302366" target="_blank">Information Sciences</a></span> /
-                      <span class="tag"><a href="https://sentic.net/category-sentence-generative-adversarial-network.pdf">Paper</a></span> /
-                      <span class="tag">2018.03</span>
-                    </div>
-                  </div>
-                </div> 
-                          
-                <div class="text anchor" id="microtext"><h4>Microtext Processing</h4></div>
-
-                 <div class="publication">
-                  <div class="img"><img class="img_responsive" src="./YangLi_files/img_normalization.png" alt="normalization"></img></div>
-                  <div class="text">
-                    <div class="title"><a name="nscl_iclr" href="./Papers/micro_text.pdf" target="_blank">Seq2Seq Deep Learning Models for Microtext Normalization</a></div>
-                    <div class="authors">
-                      <span class="author"><a href="https://medium.com/@kumarsatpathy" target="_blank">Ranjan Satapathy</a></span>,
-                      <span class="author ly">Yang Li</span>,
-                      <span class="author">Sandro Cavallari</span>,
-                      <span class="author"><a href="https://sentic.net/erikcambria/" target="_blank">Erik Cambria</a></span>
-                    </div>
-                    <div>
-                      <span class="venue"><a href="https://ieeexplore.ieee.org/document/8851895" target="_blank">IJCNN2019</a></span> /
-                      <span class="tag"><a href="./Papers/micro_text.pdf" target="_blank">Paper</a></span> /
-                      <span class="tag"><a href="https://github.com/npuliyang/Microtext_Normalization" target="_blank">Code</a></span> /
-                      <span class="tag">2019.06</span>
-                    </div>
-                  </div>
                 </div>
-
         </script>
       </div> <!-- content -->
     </div> <!-- container -->

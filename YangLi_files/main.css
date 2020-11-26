@@ -5,7 +5,8 @@ Segoe,"Segoe UI",
 "Avenir","Seravek","Ubuntu",
 "DejaVu Sans","Trebuchet MS",Verdana,Arial,sans-serif;font-size:15px;line-height:170%;text-align:justify;font-weight:400}
 h1,h2,h3,h4,h5,h6,div.title,div.ftheader,span.venue,span.highlight{font-weight:600}
-h4,div.title,div.ftsubheader{font-size:100%}
+h4,div.title,div.ftsubheader{font-size:100%} 
+h4.title{color:#0055AA;font-weight:800}
 ul,ol,dl{margin:0;padding:5px 10px 30px 30px;width:calc(100% - 30px)}
 img.img_responsive{width:100%;height:auto;display:block}
 div.container a:link,

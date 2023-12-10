@@ -208,3 +208,9 @@ footer hr {
 footer {
     /* Footer styles (as previously defined) */
 }
+.map{
+    margin-left:auto;
+    margin-right:auto;
+    width:120px;
+    height:auto;
+}

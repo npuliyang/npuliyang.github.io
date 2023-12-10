@@ -1,0 +1,210 @@
+body {
+/*    text-align: center;*/
+/* margin-left: 10%;*/
+    padding-top: 70px; /* Adjust to the height of your nav */
+}
+
+ 
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 100; /* Ensures the nav stays on top of other content */
+    /* Rest of your styles */
+}
+nav ul {
+/*     margin-left: 10%;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    display: inline-block;
+}
+.language-switch {
+    position: fixed;
+    right: 4px;
+    top: 11px;
+}
+.language-switch button {
+    /* Style your buttons as needed */
+/*    background-color: #4CAF50; /* A pleasant green background */*/
+/*    color: white;*/
+    border: none;
+/*    padding: 5px 10px;*/
+/*    text-align: center;*/
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 4px 2px;
+/*    transition-duration: 0.4s;*/
+    cursor: pointer;
+/*    border-radius: 5px;*/
+}
+.language-switch button:hover {
+    background-color: white;
+    color: #4CAF50;
+/*    border: 1px solid #4CAF50;*/
+}
+.name-section {
+    text-align: left;
+    margin-left: 8%;
+    /* Additional styling as needed */
+}
+.name-section hr {
+    width: 80%; /* Adjust the width as needed */
+    border: 1px solid #000; /* Change color and style of the line */
+    margin: 0 auto; /* Center the line */
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1 {
+    background-color: white;
+    width: 30%;
+/*    padding: 10px;*/
+/*    border-left: 1px solid #ddd;*/
+    border-right: 1px solid #ddd;
+}
+.column1 li {
+    font-size: 0.8em;
+    text-align: left;
+/*    margin-left: 2%;*/
+}
+
+.column2 {
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.column2 li {
+    font-size: 0.8em;
+    text-align: left;
+/*    margin-left: 2%;*/
+}
+.column3 {
+    background-color: white;
+    width: 20%;
+    padding: 10px;
+    border-left: 1px solid #ddd;
+/*    border-right: 1px solid #ddd;*/
+}
+
+.column3 li {
+    font-size: 0.8em;
+    text-align: left;
+    margin-left: 2%;
+}
+.column:first-child {
+    border-left: none;
+}
+
+.column:last-child {
+    border-right: none;
+}
+
+
+.p-style-2 {
+    font-size: 0.8em;
+    text-align: center;
+/*    margin-left: 10%;*/
+}
+.p-style-1 {
+    font-size: 0.8em;
+    text-align: left;
+/*    margin-left: 10%;*/
+}
+.p-style-3 {
+    font-size: 0.9em;
+    text-align: left; 
+    color: #808000;
+}
+img {
+    max-width: 20%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em; /* Smaller font size */
+    margin-top: 20px;
+}
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd; /* Thin grey line */
+}
+
+
+.publications-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.publications-container h1 {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.publications-container h2 {
+    font-size: 1em;
+     text-align: left;
+     margin-left: 0;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    margin-bottom: 3px; 
+    padding: 5px;
+    border-radius: 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.publications-container ul {
+    list-style-type: square;
+    padding-left: 0; 
+    margin-left: 20px; 
+    padding: 0;
+}
+
+.publications-container ul li {
+/*    list-style-type: square;*/
+    font-size: 0.8em;
+    background-color: #ffffff;
+    margin-bottom: 3px;
+    padding: 3px;
+    border-radius: 1px;
+/*    box-shadow: 0 2px 5px rgba(0,0,0,0.1);*/
+}
+
+.publications-container ul li a {
+    color: #242424;
+    text-decoration: none;
+}
+
+.publications-container ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    /* Footer styles (as previously defined) */
+}

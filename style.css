@@ -124,13 +124,14 @@ nav ul li a {
 }
 
 /* 媒体查询，用于小屏幕设备 */
-@media screen and (max-width: 768px) {
+@media (max-width: 600px) {
     .container {
-        flex-direction: column;
+        flex-direction: column; /* 改为纵向排列 */
     }
 
     .column1, .column2, .column3 {
-        width: 100%; /* 每列宽度为100%，使其堆叠成一列 */
+        width: 100%; /* 每列宽度调整为100% */
+        /* 可能需要的其他样式调整 */
     }
 }
 

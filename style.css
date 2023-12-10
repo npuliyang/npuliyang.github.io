@@ -123,6 +123,16 @@ nav ul li a {
     border-right: none;
 }
 
+/* 媒体查询，用于小屏幕设备 */
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .column1, .column2, .column3 {
+        width: 100%; /* 每列宽度为100%，使其堆叠成一列 */
+    }
+}
 
 .p-style-2 {
     font-size: 0.8em;

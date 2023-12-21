@@ -178,6 +178,23 @@ nav ul li a {
     text-align: left; 
     color: #808000;
 }
+.p-style-4 {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: left; 
+    line-height:10%; 
+    color: #808000;
+    text-indent: -15px;
+}
+.column2 li a {
+    color: #242424;
+    text-decoration: none;
+}
+
+.column2 li a:hover {
+    text-decoration: underline;
+}
+
 img {
     max-width: 20%;
     height: auto;

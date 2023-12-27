@@ -183,6 +183,14 @@ nav ul li a {
     color: #808000;
     text-indent: -15px;
 }
+.p-style-5 {
+    font-size: 1.0em;
+/*    font-weight: bold;*/
+    text-align: left; 
+    line-height:10%; 
+/*    color: #808000;*/
+/*    text-indent: -15px;*/
+}
 .column2 li a {
     color: #242424;
     text-decoration: none;

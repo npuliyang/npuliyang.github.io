@@ -8,3 +8,4 @@ function switchLanguage(lang) {
         langElements[i].style.display = 'block';
     }
 }
+

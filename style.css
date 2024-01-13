@@ -85,10 +85,10 @@ nav ul li a {
 }
 
 .profile-picture {
-    width: 100px; /* 或根据需要调整 */
+    width: 100%; /* 或根据需要调整 */
     height: auto; /* 保持宽高比 */
     border-radius: 50%; /* 可选：创建圆形图像 */
-    margin-right: 35px; /* 图像和文本之间的空间 */
+    margin-right: 10%; /* 图像和文本之间的空间 */
 }
 
 .profile-details {
@@ -103,9 +103,9 @@ nav ul li a {
     border-right: 1px solid #ddd;
 }
 .column1 li {
-    font-size: 0.82em;
+    font-size: 0.85em;
     text-align: left;
-    margin-left: -20px;
+    margin-left: -18px;
 }
 
 .column2 {
@@ -116,7 +116,7 @@ nav ul li a {
     border-right: 1px solid #ddd;
 }
 .column2 li {
-    font-size: 0.8em;
+    font-size: 0.85em;
     text-align: left;
 /*    margin-left: 2%;*/
 }
@@ -129,9 +129,9 @@ nav ul li a {
 }
 
 .column3 li {
-    font-size: 0.8em;
+    font-size: 0.85em;
     text-align: left;
-    margin-left: 2%;
+/*    margin-left: 2%;*/
 }
 .column:first-child {
     border-left: none;
@@ -149,6 +149,8 @@ nav ul li a {
 
     .column1, .column2, .column3 {
         width: 100%; /* 每列宽度调整为100% */
+         border-left: none;
+         border-right: none;
         /* 可能需要的其他样式调整 */
     }
     nav ul li a {
@@ -161,19 +163,31 @@ nav ul li a {
 }
 
 .p-style-2 {
-    font-size: 0.8em;
+    font-size: 0.85em;
     text-align: center;
 /*    margin-left: 10%;*/
 }
 .p-style-1 {
+    font-size: 0.9em;
+    text-align: left;
+    font-weight: bold;
+/*    margin-left: 10%;*/
+}
+.p-style-1-bio {
     font-size: 0.8em;
     text-align: left;
-/*    margin-left: 10%;*/
+/*    margin-left: 5%;*/
+}
+.p-style-1-adver {
+    font-size: 0.9em;
+    text-align: left;
+/*    margin-left: 5%;*/
 }
 .p-style-3 {
     font-size: 0.9em;
     text-align: left; 
-    color: #808000;
+    font-weight: bold;
+    color: red;
 }
 .p-style-4 {
     font-size: 0.9em;
@@ -184,12 +198,12 @@ nav ul li a {
     text-indent: -15px;
 }
 .p-style-5 {
-    font-size: 1.0em;
-/*    font-weight: bold;*/
+    font-size: 0.86em;
+    font-weight: bold;
     text-align: left; 
-    line-height:10%; 
-/*    color: #808000;*/
-/*    text-indent: -15px;*/
+    word-wrap: break-word; 
+    white-space: normal; 
+    color: #255F9F; 
 }
 .column2 li a {
     color: #242424;
@@ -204,9 +218,10 @@ nav ul li a {
     color:  #808000;
     cursor: pointer;
 /*    border: none;*/
-    text-align: left;
-/*    outline: none;*/
-    font-size: 0.8em;
+    text-align: left;    
+    font-weight: bold;
+
+    font-size: 0.85em;
     transition: 0.4s;
 }
 
@@ -217,7 +232,7 @@ nav ul li a {
 }
 
 .collapsible.active:after {
-    content: "\2212"; /* Minus sign */
+    content: ":"; /* Minus sign \2212*/
     color: #808000;
     font-size: 0.6em;
     font-weight: bold;
@@ -240,7 +255,7 @@ nav ul li a {
 
 .homepage-link {
     display: inline-block;
-    font-size: 0.8em;
+    font-size: 0.85em;
     color: #808000;
     text-decoration: none; /* 移除下划线 */
 }
@@ -253,7 +268,8 @@ img {
 
 footer {
     text-align: center;
-    font-size: 0.8em; /* Smaller font size */
+    color: gray;
+    font-size: 0.5em; /* Smaller font size */
     margin-top: 20px;
 }
 
@@ -295,7 +311,7 @@ footer hr {
 
 .publications-container ul li {
 /*    list-style-type: square;*/
-    font-size: 0.8em;
+    font-size: 0.85em;
     background-color: #ffffff;
     margin-bottom: 3px;
     padding: 3px;

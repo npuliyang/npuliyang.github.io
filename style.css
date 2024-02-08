@@ -327,11 +327,11 @@ footer hr {
 .publications-container ul li a:hover {
     text-decoration: underline;
 }
-.publications-container img_medal {
-    width: 20%;
+
+.img_medal {
+    width: 0.8%;
     height: auto;
 }
-
 footer {
     /* Footer styles (as previously defined) */
 }

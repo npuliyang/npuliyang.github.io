@@ -318,10 +318,17 @@ footer hr {
     border-radius: 1px;
 /*    box-shadow: 0 2px 5px rgba(0,0,0,0.1);*/
 }
+.publications-container ul li at {
+    color: #242424;
+    text-decoration: none; 
+}
+
 
 .publications-container ul li a {
-    color: #242424;
+    color: #255F9F;
     text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
 .publications-container ul li a:hover {
@@ -341,3 +348,4 @@ footer {
     width:120px;
     height:auto;
 }
+

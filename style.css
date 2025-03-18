@@ -1,3 +1,7 @@
+/* 新增基础字体调整 */
+html {
+    font-size: 16px;
+}
 body {
 /*    text-align: center;*/
 /* margin-left: 10%;*/
@@ -143,6 +147,15 @@ nav ul li a {
 
 /* 媒体查询，用于小屏幕设备 */
 @media (max-width: 1000px) {
+        /* 基础字体放大到16px（标准移动端阅读尺寸） */
+    body {
+            font-size: 16px !important;
+        }
+    /* 层次化字体尺寸调整 */
+    h3 {
+        font-size: 1.4rem !important;  /* 约22px */
+        margin: 15px 0;
+    }
     .container {
         flex-direction: column;
         width: 95%;
@@ -158,16 +171,25 @@ nav ul li a {
         display: inline-block;
         margin-left: 15px;
     }
-
-    .profile-container {
-        flex-direction: column;
-        align-items: center;
+    nav ul li a {
+        font-size: 1.1rem !important;
+        padding: 16px 12px;
     }
+ 
 
     .profile-picture {
-        width: 150px;
-        margin-right: 0;
-        margin-bottom: 20px;
+        display: none !important;
+    }
+    
+    /* 同时调整容器布局 */
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    /* 优化隐藏照片后的文字间距 */
+    .profile-details {
+        margin-top: 15px;
     }
 
     .column1, .column2, .column3 {
@@ -175,14 +197,16 @@ nav ul li a {
         border: none;
         padding: 15px 5px;
         box-sizing: border-box;
+        padding-left: 1.2em;  /* 使用字符单位保持缩进一致性 */
     }
 
     .homepage-link {
-        margin: 15px 0;
+        /* margin: 15px 0; */
         display: flex;
+        /* width: 120px;  放大图标尺寸 */
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        /* gap: 10px; */
     }
 
     .homepage-link img {
@@ -191,6 +215,7 @@ nav ul li a {
 
     .p-style-1, .p-style-1-adver, .p-style-4 {
         font-size: 1rem;
+        line-height: 1.6;
     }
 
     ul {
@@ -198,9 +223,9 @@ nav ul li a {
     }
 
     li {
-        font-size: 0.95rem;
-        line-height: 1.5;
-        margin-bottom: 8px;
+        font-size: 1rem;
+        line-height: 1.7;
+        margin-bottom: 12px;
     }
 
     h3 {
@@ -227,6 +252,14 @@ nav ul li a {
     /* 调整新闻列表间距 */
     .column3 ul {
         padding-left: 15px;
+    }
+    @media (max-width: 480px) {
+        body {
+            font-size: 17px !important;
+        }
+        h3 {
+            font-size: 1.5rem !important;
+        }
     }
 }
 

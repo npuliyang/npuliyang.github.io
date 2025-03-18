@@ -144,22 +144,90 @@ nav ul li a {
 /* 媒体查询，用于小屏幕设备 */
 @media (max-width: 1000px) {
     .container {
-        flex-direction: column; /* 改为纵向排列 */
+        flex-direction: column;
+        width: 95%;
+    }
+
+    nav ul {
+        white-space: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    .profile-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-picture {
+        width: 150px;
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 
     .column1, .column2, .column3 {
-        width: 100%; /* 每列宽度调整为100% */
-         border-left: none;
-         border-right: none;
-        /* 可能需要的其他样式调整 */
+        width: 100%;
+        border: none;
+        padding: 15px 5px;
+        box-sizing: border-box;
     }
-    nav ul li a {
-    text-decoration: none;
-    font-size: 17px;
-    color: white;
-    padding: 14px 16px;
-    display: inline-block;
-}
+
+    .homepage-link {
+        margin: 15px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .homepage-link img {
+        width: 100px;
+    }
+
+    .p-style-1, .p-style-1-adver, .p-style-4 {
+        font-size: 1rem;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 8px;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .map {
+        width: 100%;
+        max-width: 180px;
+        margin: 0 auto;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+    }
+
+    /* 优化折叠按钮点击区域 */
+    .collapsible {
+        padding: 10px 0;
+        display: block;
+        width: 100%;
+    }
+
+    /* 调整新闻列表间距 */
+    .column3 ul {
+        padding-left: 15px;
+    }
 }
 
 .p-style-2 {
